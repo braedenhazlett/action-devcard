@@ -37,3 +37,6 @@ inputs:
 runs:
   using: 'node16'
   main: "dist/index.js"
+
+- name: @dailydotdev/devcard
+  uses: dailydotdev/action-devcard@2.1.0
